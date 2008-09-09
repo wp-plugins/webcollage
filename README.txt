@@ -24,9 +24,7 @@ The beauty of the collage depends on the websites you link to.
 Webcollage uses artviper.net's screen shot generation service. This service is free as long as the usage is non-commercial. 
 
 Hence, please do not use this plugin on any commercial web site.
-The website snapshots may take few minutes to load up. But once they are in your cache, the collage gets generated very 
-
-quickly.
+The website snapshots may take few minutes to load up. But once they are in your cache, the collage gets generated very quickly.
 
 == Installation ==
 
@@ -35,4 +33,4 @@ Download the zip file and follow the instructions below:
     * Unzip the file
     * Upload the folder webcollage to your wordpress plugins directory/folder
     * Activate the plugin in your wordpress admin/plugins page.
-    * To create a webcollage on a page, insert the tag "[wecollage]".
+    * To create a webcollage on a page, insert the tag "[webcollage]".
