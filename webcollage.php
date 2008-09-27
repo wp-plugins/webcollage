@@ -50,7 +50,9 @@ function webcollage_function ($text)
 //    $link = get_bookmark_field('link_url',  $i, 'display');
 //    echo $link;
        if ($i == 3) {  
-	       $atext .= "<td><a href=\"http://nynjbengali.ethnomediallc.com\"><img src=\"http://www.artviper.net/screenshots/screener.php?url=$link_urls[$i]&w=90\"></a></td>"; 
+	       $atext .= "<td><a href=\"http://nynjbengali.ethnomediallc.com\"><img src=\"http://www.artviper.net/screenshots/screener.php?url=http://nynjbengali.ethnomediallc.com/&w=90\"></a></td>"; 
+               $atext .= "<td><a href=\"$link_urls[$i]\"><img src=\"http://www.artviper.net/screenshots/screener.php?url=$link_urls[$i]&w=90\"></a></td>";
+               $j++;
        }
        else {
 	       $atext .= "<td><a href=\"$link_urls[$i]\"><img src=\"http://www.artviper.net/screenshots/screener.php?url=$link_urls[$i]&w=90\"></a></td>";
@@ -65,6 +67,7 @@ function webcollage_function ($text)
    } 
     // this finds the particular feed between the feedsnap brackets and replaces
     // it with the assembled feed text
+ 
   $atext .= "</tr></table>";
   
   $text = str_replace('[webcollage]', $atext, $text); //allow for option
