@@ -4,7 +4,7 @@ Donate link:
 Tags: links, blogroll, screen shot, artviper
 Requires at least: 2.0.2
 Tested up to: 2.5
-Stable tag: 1.0
+Stable tag: 1.1
 
 
 WebCollage is a cute plugin for Wordpress sites. It creates a collage of snapshots of the websites that you have in your 
